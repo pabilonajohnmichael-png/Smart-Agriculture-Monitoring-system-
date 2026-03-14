@@ -1,0 +1,83 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#2c7a2c;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav button{
+padding:6px 10px;
+}
+
+.container{
+background:white;
+max-width:1000px;
+margin:30px auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#e8f5e9;
+padding:15px;
+border-radius:10px;
+width:200px;
+}
+
+.weather{
+background:#e3f2fd;
+padding:15px;
+border-radius:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+input{
+padding:10px;
+width:70%;
+}
+
+button{
+padding:10px;
+background:#2c7a2c;
+color:white;
+border:none;
+}
+
+.dark{
+background:#1a1a1a;
+color:white;
+}
+
+.dark .container{
+background:#333;
+}
